@@ -13,4 +13,5 @@ async def ping(ctx):
 async def sum(ctx, num1: int, num2: int):
     await ctx.send(num1 + num2)
 
+
 bot.run("MTAxNjUxMDgxMTEwMDk1NDY1NQ.GwTjOO.Qx-d7xxyOC_rYhkPvMxoB3mFsQgi05vqiZBZU4")
