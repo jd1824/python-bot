@@ -1,9 +1,8 @@
 import discord
 from discord.ext import commands
 
-Intents = discord.Intents.default()
-Intents.message_content = True
-bot = commands.Bot(command_prefix='>', intents=Intents)
+
+bot = commands.Bot(command_prefix='>', intents=discord.Intents.default())
 
 @bot.command()
 async def ping(ctx):
