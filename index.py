@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 import discord
@@ -44,4 +45,4 @@ async def info(ctx):
 
 
 
-bot.run("token")
+bot.run(os.environ.get(token))
