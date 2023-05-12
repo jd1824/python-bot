@@ -44,4 +44,4 @@ async def info(ctx):
 
 
 
-bot.run("MTAxNjUxMDgxMTEwMDk1NDY1NQ.GGcO6F.Z9csvh6ivqSL6ybiIR9thSR_L5W6ah7wgpqwuM")
+bot.run("token")
